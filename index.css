@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+/* Tiêu đề */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+.header .title {
+    font-size: 24px;
+    color: #333;
+}
+.header .subtitle {
+    color: #666;
+}
+/* Menu */
+.menu {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+.menu a:hover {
+    color: blue;
+    background-color: #ccc;
+}
+/* Nội dung chính */
+.main-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+.main-content h2 {
+    color: #666;
+}
+/* Form góp ý */
+.feedback-form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+/* Khu vực ảnh */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 100px;
+    height: auto;
+}
